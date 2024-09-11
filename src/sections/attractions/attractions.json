@@ -1,0 +1,28 @@
+{
+  "attractions": {
+    "children": [
+      {
+        "name": "Astronavi",
+        "description": "Desperte a imaginação nesta nave super divertida",
+        "status": "Aberto",
+        "openingHours": "11h - 19h",
+        "minHeight": "0,90m",
+        "maxHeight": "1,40m",
+        "image": "https://i0.statig.com.br/hopihari/img/ASTRONAVI-640x267.jpg",
+        "altImage": "Astronavi",
+        "video": "https://www.youtube.com/shorts/JVBHzuh0ygk"
+      },
+      {
+        "name": "Bravo Bull",
+        "description": "Desafie um touro mecânico no meio do velho oeste",
+        "status": "Aberto",
+        "openingHours": "11h - 19h",
+        "minHeight": "1,00m",
+        "maxHeight": "1,40m",
+        "image": "https://i0.statig.com.br/hopihari/img/bravo-bull-min.jpg",
+        "altImage": "Bravo Bull",
+        "video": "https://www.youtube.com/watch?v=XnNnafT7d_g"
+      }
+    ]
+  }
+}
