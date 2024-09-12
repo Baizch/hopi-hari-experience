@@ -10,7 +10,7 @@
         "maxHeight": "1,40m",
         "image": "https://i0.statig.com.br/hopihari/img/ASTRONAVI-640x267.jpg",
         "altImage": "Astronavi",
-        "video": "https://www.youtube.com/shorts/JVBHzuh0ygk"
+        "video": ""
       },
       {
         "name": "Bravo Bull",
@@ -21,7 +21,84 @@
         "maxHeight": "1,40m",
         "image": "https://i0.statig.com.br/hopihari/img/bravo-bull-min.jpg",
         "altImage": "Bravo Bull",
-        "video": "https://www.youtube.com/watch?v=XnNnafT7d_g"
+        "video": ""
+      },
+      {
+        "name": "Dispenkito",
+        "description": "Uma minitorre que dá um friozinho na barriga",
+        "status": "Aberto",
+        "openingHours": "11h - 19h",
+        "minHeight": " 0,90m",
+        "maxHeight": "1,40m",
+        "image": "https://i0.statig.com.br/hopihari/img/DISPENKITO-640x267.jpg",
+        "altImage": "Dispenkito",
+        "video": ""
+      },
+      {
+        "name": "Giralata",
+        "description": "Divirta-se nas latas de tintas mágicas do professor Litiu",
+        "status": "Aberto",
+        "openingHours": "11h - 19h",
+        "minHeight": "Não há",
+        "maxHeight": "Não há",
+        "image": "https://i0.statig.com.br/hopihari/img/GIRALATA-640x267.jpg",
+        "altImage": "Giralata",
+        "video": ""
+      },
+      {
+        "name": "Giranda Pokotó",
+        "description": "Carrossel mágico da Vila di Habitaris",
+        "status": "Aberto",
+        "openingHours": "11h - 19h",
+        "minHeight": "Não há",
+        "maxHeight": "1,40m",
+        "image": "https://i0.statig.com.br/hopihari/img/GirandaPokot%C3%B3.jpg",
+        "altImage": "Giranda Pokotó",
+        "video": ""
+      },
+      {
+        "name": "Kastel di Lendas",
+        "description": "Fabulosa viagem pelas lendas brasileiras",
+        "status": "Aberto",
+        "openingHours": "11h - 19h",
+        "minHeight": "Não há",
+        "maxHeight": "Não há",
+        "image": "https://i0.statig.com.br/hopihari/img/Atracoes-Faltantes-12-min.jpg",
+        "altImage": "Kastel di Lendas",
+        "video": ""
+      },
+      {
+        "name": "Komboio",
+        "description": "Um divertido passeio em super caminhões",
+        "status": "Aberto",
+        "openingHours": "11h - 19h",
+        "minHeight": "Não há",
+        "maxHeight": "Não há",
+        "image": "https://i0.statig.com.br/hopihari/img/Komboio_%28640_x_267px%29.jpg",
+        "altImage": "Komboio",
+        "video": ""
+      },
+      {
+        "name": "Speedi '64",
+        "description": "Um divertido passeio pela capital de Hopi Hari",
+        "status": "Aberto",
+        "openingHours": "11h - 19h",
+        "minHeight": "1,00m",
+        "maxHeight": "Não há",
+        "image": "https://i0.statig.com.br/hopihari/img/speedi-64.jpg",
+        "altImage": "Speedi '64",
+        "video": ""
+      },
+      {
+        "name": "Toka do Uga",
+        "description": "Divirta-se no recinto arqueológico que criado por Hópia, Hópiu e Hariz para fazer com que o Uga se sinta em casa",
+        "status": "Aberto",
+        "openingHours": "11h - 19h",
+        "minHeight": " 0,80m",
+        "maxHeight": "1,40m",
+        "image": "https://i0.statig.com.br/hopihari/img/TokaUga.jpg",
+        "altImage": "Toka do Uga",
+        "video": ""
       }
     ]
   }
