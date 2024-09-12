@@ -10,7 +10,8 @@
         "maxHeight": "1,40m",
         "image": "https://i0.statig.com.br/hopihari/img/ASTRONAVI-640x267.jpg",
         "altImage": "Astronavi",
-        "video": ""
+        "video": "",
+        "observation": ""
       },
       {
         "name": "Bravo Bull",
@@ -21,7 +22,8 @@
         "maxHeight": "1,40m",
         "image": "https://i0.statig.com.br/hopihari/img/bravo-bull-min.jpg",
         "altImage": "Bravo Bull",
-        "video": ""
+        "video": "",
+        "observation": ""
       },
       {
         "name": "Dispenkito",
@@ -32,7 +34,8 @@
         "maxHeight": "1,40m",
         "image": "https://i0.statig.com.br/hopihari/img/DISPENKITO-640x267.jpg",
         "altImage": "Dispenkito",
-        "video": ""
+        "video": "",
+        "observation": ""
       },
       {
         "name": "Giralata",
@@ -43,7 +46,8 @@
         "maxHeight": "Não há",
         "image": "https://i0.statig.com.br/hopihari/img/GIRALATA-640x267.jpg",
         "altImage": "Giralata",
-        "video": ""
+        "video": "",
+        "observation": ""
       },
       {
         "name": "Giranda Pokotó",
@@ -54,7 +58,8 @@
         "maxHeight": "1,40m",
         "image": "https://i0.statig.com.br/hopihari/img/GirandaPokot%C3%B3.jpg",
         "altImage": "Giranda Pokotó",
-        "video": ""
+        "video": "",
+        "observation": ""
       },
       {
         "name": "Kastel di Lendas",
@@ -65,7 +70,8 @@
         "maxHeight": "Não há",
         "image": "https://i0.statig.com.br/hopihari/img/Atracoes-Faltantes-12-min.jpg",
         "altImage": "Kastel di Lendas",
-        "video": ""
+        "video": "",
+        "observation": ""
       },
       {
         "name": "Komboio",
@@ -76,7 +82,8 @@
         "maxHeight": "Não há",
         "image": "https://i0.statig.com.br/hopihari/img/Komboio_%28640_x_267px%29.jpg",
         "altImage": "Komboio",
-        "video": ""
+        "video": "",
+        "observation": ""
       },
       {
         "name": "Speedi '64",
@@ -87,7 +94,8 @@
         "maxHeight": "Não há",
         "image": "https://i0.statig.com.br/hopihari/img/speedi-64.jpg",
         "altImage": "Speedi '64",
-        "video": ""
+        "video": "",
+        "observation": ""
       },
       {
         "name": "Toka do Uga",
@@ -98,7 +106,238 @@
         "maxHeight": "1,40m",
         "image": "https://i0.statig.com.br/hopihari/img/TokaUga.jpg",
         "altImage": "Toka do Uga",
-        "video": ""
+        "video": "",
+        "observation": ""
+      }
+    ],
+    "family": [
+      {
+        "name": "Aribabobbi",
+        "description": "Aventure-se no divertido barco do marinheiro Bobbi, que vai-e-vem, vem-e-vai.",
+        "status": "Aberto",
+        "openingHours": "11h - 19h",
+        "minHeight": "0,90m",
+        "maxHeight": "Não há",
+        "image": "https://i0.statig.com.br/imgs/aribabobbi.png",
+        "altImage": "Aribabobbi",
+        "video": "",
+        "observation": ""
+      },
+      {
+        "name": "Bugabalum",
+        "description": "Os balões esvoaçantes que vão te fazer flutuar pelos céus de Infantasia.",
+        "status": "Aberto",
+        "openingHours": "11h - 19h",
+        "minHeight": "0,80m",
+        "maxHeight": "Não há",
+        "image": "https://i0.statig.com.br/imgs/bugabalum.png",
+        "altImage": "Bugabalum",
+        "video": "",
+        "observation": ""
+      },
+      {
+        "name": "Cinemotion",
+        "description": "O cinema mais moderno da capital",
+        "status": "Manutenção",
+        "openingHours": "",
+        "minHeight": "1,10m",
+        "maxHeight": "Não há",
+        "image": "https://i0.statig.com.br/hopihari/img/Cinemotion_%28640_x_267px%29.jpg",
+        "altImage": "Cinemotion",
+        "video": "",
+        "observation": ""
+      },
+      {
+        "name": "Ghosti Hotel",
+        "description": "Hotel mal-assombrado com hóspedes aterrorizantes",
+        "status": "Aberto",
+        "openingHours": "11h - 19h",
+        "minHeight": "1,00m",
+        "maxHeight": "Não há",
+        "image": "https://i0.statig.com.br/hopihari/img/ghosti-hotel-min.jpg",
+        "altImage": "Ghosti Hotel",
+        "video": "",
+        "observation": ""
+      },
+      {
+        "name": "Giranda Mundi",
+        "description": "Roda gigante com vista para todo o parque",
+        "status": "Aberto",
+        "openingHours": "11h - 19h",
+        "minHeight": "Não há",
+        "maxHeight": "Não há",
+        "image": "https://i0.statig.com.br/hopihari/img/Giranda-Mundi-1-min.jpg",
+        "altImage": "Giranda Mundi",
+        "video": "",
+        "observation": ""
+      },
+      {
+        "name": "Jambalaia",
+        "description": "Dois vagões malucos que balançam até darem uma volta completa",
+        "status": "Aberto",
+        "openingHours": "11h - 19h",
+        "minHeight": "1,30m",
+        "maxHeight": "Não há",
+        "image": "https://i0.statig.com.br/hopihari/img/Jambalaia.png",
+        "altImage": "Jambalaia",
+        "video": "",
+        "observation": ""
+      },
+      {
+        "name": "Jogakí di Kaminda",
+        "description": "Muitos jogos para você praticar sua pontaria e ganhar prêmios",
+        "status": "Aberto",
+        "openingHours": "11h - 19h",
+        "minHeight": "Não há",
+        "maxHeight": "Não há",
+        "image": "https://i0.statig.com.br/hopihari/img/Jogak%C3%AD_di_Kaminda_%28640_x_267px%29.jpg",
+        "altImage": "Jogakí di Kaminda",
+        "video": "",
+        "observation": "Esta atração é paga à parte"
+      },
+      {
+        "name": "Katakumb",
+        "description": "O misterioso templo egípcio de Ramsés II",
+        "status": "Aberto",
+        "openingHours": "11h - 19h",
+        "minHeight": "1,20m",
+        "maxHeight": "Não há",
+        "image": "https://i0.statig.com.br/hopihari/img/Katakumb-640x267.jpg",
+        "altImage": "Katakumb",
+        "video": "",
+        "observation": ""
+      },
+      {
+        "name": "La Mina Del Joe Sacramento",
+        "description": "Uma misteriosa mina abandonada",
+        "status": "Aberto",
+        "openingHours": "11h - 19h",
+        "minHeight": "1,20m",
+        "maxHeight": "Não há",
+        "image": "https://i0.statig.com.br/hopihari/img/mina-joe-sacramento-min.jpg",
+        "altImage": "La Mina Del Joe Sacramento",
+        "video": "",
+        "observation": ""
+      },
+      {
+        "name": "Namuskita",
+        "description": "Tiro ao alvo pra você testar sua pontaria",
+        "status": "Aberto",
+        "openingHours": "11h - 19h",
+        "minHeight": "Não há",
+        "maxHeight": "Não há",
+        "image": "https://i0.statig.com.br/hopihari/img/namuskita-min.jpg",
+        "altImage": "Namuskita",
+        "video": "",
+        "observation": "Esta atração é paga à parte"
+      },
+      {
+        "name": "Parangolé",
+        "description": "É da família dos chapéus mexicanos. Você vai se sentir voando.",
+        "status": "Aberto",
+        "openingHours": "11h - 19h",
+        "minHeight": "1,30m",
+        "maxHeight": "Não há",
+        "image": "https://i0.statig.com.br/hopihari/img/Parangol%C3%A9.jpg",
+        "altImage": "Parangolé",
+        "video": "",
+        "observation": ""
+      },
+      {
+        "name": "Rio Bravo",
+        "description": "600 metros de corredeira com muita emoção",
+        "status": "Aberto",
+        "openingHours": "11h - 19h",
+        "minHeight": "1,00m",
+        "maxHeight": "Não há",
+        "image": "https://i0.statig.com.br/hopihari/img/Rio-Bravo-1-min.jpg",
+        "altImage": "Rio Bravo",
+        "video": "",
+        "observation": ""
+      },
+      {
+        "name": "Simulákron",
+        "description": "Simulador dentro de um templo Maia",
+        "status": "Aberto",
+        "openingHours": "11h - 19h",
+        "minHeight": "1,10m",
+        "maxHeight": "Não há",
+        "image": "https://i0.statig.com.br/hopihari/img/simulakron-min.jpg",
+        "altImage": "Simulákron",
+        "video": "",
+        "observation": ""
+      },
+      {
+        "name": "Spleshi",
+        "description": "Passeio molhado e divertido por um rio",
+        "status": "Aberto",
+        "openingHours": "11h - 19h",
+        "minHeight": "1,00m",
+        "maxHeight": "Não há",
+        "image": "https://i0.statig.com.br/hopihari/img/SPLESHI-640x267.jpg",
+        "altImage": "Spleshi",
+        "video": "",
+        "observation": ""
+      },
+      {
+        "name": "Theatro di Kaminda",
+        "description": "O Theatro di Kaminda apresenta espetáculos inéditos e incríveis. Fique de olho em nossa programação e mergulhe em um mundo de magia e encantamento com nossos atores, bailarinos e cantores.",
+        "status": "Aberto",
+        "openingHours": "De acordo com a programação",
+        "minHeight": "Não há",
+        "maxHeight": "Não há",
+        "image": "https://i0.statig.com.br/hopihari/img/kaminda-min.jpg",
+        "altImage": "Theatro di Kaminda",
+        "video": "",
+        "observation": ""
+      },
+      {
+        "name": "Theatro Klapi Klapi",
+        "description": "Em cartaz: Alice do País Mais Divertido do Mundo",
+        "status": "Aberto",
+        "openingHours": "De acordo com a programação",
+        "minHeight": "Não há",
+        "maxHeight": "Não há",
+        "image": "https://i0.statig.com.br/hopihari/img/Klapi_Klapi_%28640_x_267px%29.jpg",
+        "altImage": "Theatro Klapi Klapi",
+        "video": "",
+        "observation": ""
+      },
+      {
+        "name": "Vambatê",
+        "description": "Carrinhos de bate-bate para soltar o barbeiro que existe em você",
+        "status": "Aberto",
+        "openingHours": "11h - 19h",
+        "minHeight": "1,00m",
+        "maxHeight": "Não há",
+        "image": "https://i0.statig.com.br/hopihari/img/Vambate.jpg",
+        "altImage": "Vambatê",
+        "video": "",
+        "observation": ""
+      },
+      {
+        "name": "Vamvolari",
+        "description": "Voe em círculos subindo e descendo como uma ave de rapina sobre os cânions de Wild West.",
+        "status": "Aberto",
+        "openingHours": "11h - 19h",
+        "minHeight": "1,00m",
+        "maxHeight": "Não há",
+        "image": "https://i0.statig.com.br/imgs/vamvolari.png",
+        "altImage": "Vamvolari",
+        "video": "",
+        "observation": ""
+      },
+      {
+        "name": "Vulaviking",
+        "description": "Um barco no mar revolto",
+        "status": "Aberto",
+        "openingHours": "11h - 19h",
+        "minHeight": "1,20m",
+        "maxHeight": "Não há",
+        "image": "https://i0.statig.com.br/hopihari/img/VULAVIKING-640x267.jpg",
+        "altImage": "Vulaviking",
+        "video": "",
+        "observation": ""
       }
     ]
   }

@@ -8,7 +8,7 @@ import Card from '../../../components/card/Card.vue';
 
 import attractions from '../attractions.json';
 
-const list: IAttractions[] = attractions.attractions.children;
+const list: IAttractions[] = attractions.attractions.family;
 
 const open = ref<boolean>(false);
 const selectedItem = ref<IAttractions | null>(null);
@@ -23,7 +23,7 @@ const closeModal = () => {
   selectedItem.value = null;
 };
 
-const subtitle: string = 'Infantis';
+const subtitle: string = 'Familiares';
 </script>
 
 <template>

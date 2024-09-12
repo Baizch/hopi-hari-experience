@@ -12,9 +12,9 @@ const props = defineProps({
 </script>
 
 <template>
-  <div class="grid lg:grid-cols-4 md:grid-cols-3 gap-4 mt-14 mb-64">
+  <div class="grid lg:grid-cols-4 md:grid-cols-3 gap-4 mt-14">
     <div
-      class="rounded overflow-hidden shadow-lg mb-2"
+      class="rounded overflow-hidden shadow-lg mb-4"
       v-for="(item, index) in props.list"
       :key="index"
     >
@@ -26,8 +26,20 @@ const props = defineProps({
         </p>
         <p class="text-gray-700 text-base mt-2 space-x-1">
           <strong>Status:</strong>
+          <!-- TO DO: componetizar??? -->
           <span
+            v-if="item.status === 'Aberto'"
             class="inline-flex items-center rounded-md bg-green-50 px-2 py-1 text-xs font-medium text-green-700 ring-1 ring-inset ring-green-600/20"
+            >{{ item.status }}</span
+          >
+          <span
+            v-else-if="item.status === 'Manutenção'"
+            class="inline-flex items-center rounded-md bg-yellow-50 px-2 py-1 text-xs font-medium text-yellow-800 ring-1 ring-inset ring-yellow-600/20"
+            >{{ item.status }}</span
+          >
+          <span
+            v-else="item.status === 'Fechado'"
+            class="inline-flex items-center rounded-md bg-red-50 px-2 py-1 text-xs font-medium text-red-700 ring-1 ring-inset ring-red-600/10"
             >{{ item.status }}</span
           >
         </p>
@@ -43,7 +55,7 @@ const props = defineProps({
           </p>
         </div>
         <button
-          class="mt-4 font-extrabold bg-white hover:bg-gray-100 text-gray-800 py-2 px-4 border border-gray-400 rounded shadow"
+          class="w-full mt-4 font-extrabold bg-white hover:bg-gray-100 text-gray-800 py-2 px-4 border border-gray-400 rounded shadow"
           @click="props.showModal(item)"
         >
           Ver vídeo

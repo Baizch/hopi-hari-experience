@@ -1,4 +1,4 @@
-export interface ChildrenAttractions {
+export interface IAttractions {
   name: string;
   description: string;
   status: string;
@@ -8,4 +8,5 @@ export interface ChildrenAttractions {
   image: string;
   altImage: string;
   video: string;
+  observation: string;
 }

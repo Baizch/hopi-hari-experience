@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { PropType } from 'vue';
-import { ChildrenAttractions } from '../../types';
+import { IAttractions } from '../../types';
 
 const props = defineProps({
   open: {
@@ -12,7 +12,7 @@ const props = defineProps({
     required: true,
   },
   selectedItem: {
-    type: Object as PropType<ChildrenAttractions>,
+    type: Object as PropType<IAttractions>,
     required: true,
   },
 });
