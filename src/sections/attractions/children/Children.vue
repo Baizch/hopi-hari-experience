@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { ref } from 'vue';
 
+import Subtitle from '../../../components/subtitle/Subtitle.vue';
 import Modal from '../../../components/modal/Modal.vue';
 
 import attractions from '../attractions.json';
@@ -31,13 +32,13 @@ const closeModal = () => {
   open.value = false;
   selectedItem.value = null;
 };
+
+const subtitle: string = 'Infantis';
 </script>
 
 <template>
   <Modal :open="open" :closeModal="closeModal" :selectedItem="selectedItem" />
-
-  <!-- TO DO: componetizar -->
-  <h2 class="font-semibold mt-4 float-left text-lg">Infantis</h2>
+  <Subtitle :subtitle="subtitle" />
 
   <!-- TO DO: componetizar -->
   <div class="grid lg:grid-cols-4 md:grid-cols-3 gap-4 mt-14 mb-64">
