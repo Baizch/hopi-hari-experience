@@ -2,6 +2,7 @@
 import Title from '../../components/title/Title.vue';
 import Children from './children/Children.vue';
 import Family from './family/Family.vue';
+import Radical from './radical/Radical.vue';
 </script>
 
 <template>
@@ -10,6 +11,7 @@ import Family from './family/Family.vue';
       <Title />
       <Children />
       <Family />
+      <Radical />
     </div>
   </section>
 </template>

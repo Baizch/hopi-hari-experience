@@ -339,6 +339,104 @@
         "video": "",
         "observation": ""
       }
+    ],
+    "radical": [
+      {
+        "name": "Ekatomb",
+        "description": "Embarque na nave suméria e descubra seus mistérios",
+        "minHeight": "1,40m",
+        "maxHeight": "Não há",
+        "status": "Aberto",
+        "openingHours": "11h - 19h",
+        "image": "https://i0.statig.com.br/hopihari/img/Ekatomb-1-min.jpg",
+        "altImage": "Ekatomb",
+        "video": "",
+        "observation": ""
+      },
+      {
+        "name": "Evolution",
+        "description": "Você vai ficar de pernas para o ar no laço do cowboy",
+        "minHeight": "1,40m",
+        "maxHeight": "Não há",
+        "status": "Aberto",
+        "openingHours": "11h - 19h",
+        "image": "https://i0.statig.com.br/hopihari/img/Evolution-2-min.jpg",
+        "altImage": "Evolution",
+        "video": "",
+        "observation": ""
+      },
+      {
+        "name": "Hadikali",
+        "description": "Salto com muita adrenalina em um voo rasante sobre o lago",
+        "minHeight": "1,30m",
+        "maxHeight": "Não há",
+        "status": "Aberto",
+        "openingHours": "11h - 19h",
+        "image": "https://i0.statig.com.br/hopihari/img/Hadikali-2-min.jpg",
+        "altImage": "Hadikali",
+        "video": "",
+        "observation": "Esta atração é paga à parte"
+      },
+      {
+        "name": "Katapul",
+        "description": "Um loop muito louco que vai de frente e volta de costas",
+        "minHeight": "1,40m",
+        "maxHeight": "Não há",
+        "status": "Aberto",
+        "openingHours": "11h - 19h",
+        "image": "https://i0.statig.com.br/hopihari/img/Katapul_%28640_x_267px%29.jpg",
+        "altImage": "Katapul",
+        "video": "",
+        "observation": ""
+      },
+      {
+        "name": "Le Voyage",
+        "description": "Um elevador de 23 andares",
+        "status": "Fechado",
+        "minHeight": "",
+        "maxHeight": "",
+        "openingHours": "",
+        "image": "https://i0.statig.com.br/hopihari/img/LV.jpg",
+        "altImage": " Le Voyage",
+        "video": "",
+        "observation": ""
+      },
+      {
+        "name": "Montezum",
+        "description": "A maior montanha-russa de madeira da América Latina",
+        "minHeight": "1,40m",
+        "maxHeight": "Não há",
+        "status": "Aberto",
+        "openingHours": "11h - 19h",
+        "image": "https://i0.statig.com.br/hopihari/img/Montezum-3-1-min.jpg",
+        "altImage": "Montezum",
+        "video": "",
+        "observation": ""
+      },
+      {
+        "name": "Tirolesa",
+        "description": "Travessia de 230 metros sobre o lago",
+        "minHeight": "1,30m",
+        "maxHeight": "Não há",
+        "status": "Aberto",
+        "openingHours": "11h - 19h",
+        "image": "https://i0.statig.com.br/hopihari/img/tirolesa-min.jpg",
+        "altImage": "Tirolesa",
+        "video": "",
+        "observation": "Esta atração é paga à parte"
+      },
+      {
+        "name": "Vurang",
+        "description": "Montanha-russa no escuro dentro de uma pirâmide Inca",
+        "minHeight": "1,40m",
+        "maxHeight": "Não há",
+        "status": "Aberto",
+        "openingHours": "11h - 19h",
+        "image": "https://i0.statig.com.br/hopihari/img/Vurang-2-1-min.jpg",
+        "altImage": "Vurang",
+        "video": "",
+        "observation": ""
+      }
     ]
   }
 }

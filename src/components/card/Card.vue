@@ -43,10 +43,16 @@ const props = defineProps({
             >{{ item.status }}</span
           >
         </p>
-        <p class="text-gray-700 text-base mt-2">
-          <strong>Horário de funcionamento:</strong> {{ item.openingHours }}
-        </p>
-        <div class="flex space-x-20">
+        <div v-if="item.openingHours !== ''" class="flex space-x-2">
+          <p class="text-gray-700 text-base mt-2">
+            <strong>Horário de funcionamento:</strong>
+          </p>
+          <p class="mt-2">{{ item.openingHours }}</p>
+        </div>
+        <div
+          v-if="item.minHeight && item.maxHeight !== ''"
+          class="flex space-x-20"
+        >
           <p class="text-gray-700 text-base mt-2">
             <strong>Altura mínima: </strong> {{ item.minHeight }}
           </p>
