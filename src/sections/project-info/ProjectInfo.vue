@@ -7,7 +7,9 @@ import Divider from '../../components/divider/Divider.vue';
     <div class="mt-12 max-w-full mx-auto px-6 text-center">
       <h2 class="font-bold text-3xl uppercase">O projeto</h2>
 
-      <p class="text-center mt-4 text-lg leading-relaxed mb-6">Bon bini!</p>
+      <p class="text-center mt-4 text-lg leading-relaxed mb-6">
+        <strong>Bon bini!</strong>
+      </p>
 
       <p class="text-lg leading-relaxed mb-6">
         Esse projeto tem como propósito proporcionar uma experiência sobre como
@@ -20,8 +22,8 @@ import Divider from '../../components/divider/Divider.vue';
       </p>
 
       <p class="text-lg leading-relaxed mb-6">
-        <strong>Obs:</strong> não faço parte da equipe do Hopi Hari, sou apenas
-        um desenvolvedor tentando ajudar as pessoas a ter uma experiência
+        <strong>Observação:</strong> não faço parte da equipe do Hopi Hari, sou
+        apenas um desenvolvedor tentando ajudar as pessoas a ter uma experiência
         agradável.
       </p>
 
