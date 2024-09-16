@@ -24,9 +24,8 @@ const props = defineProps({
         <p class="text-gray-700 text-base">
           {{ item.description }}
         </p>
-        <p class="text-gray-700 text-base mt-2 space-x-1">
+        <p class="text-gray-700 text-base mt-2 space-x-2">
           <strong>Status:</strong>
-          <!-- TO DO: componetizar??? -->
           <span
             v-if="item.status === 'Aberto'"
             class="inline-flex items-center rounded-md bg-green-50 px-2 py-1 text-xs font-medium text-green-700 ring-1 ring-inset ring-green-600/20"
@@ -49,18 +48,15 @@ const props = defineProps({
           </p>
           <p class="mt-2">{{ item.openingHours }}</p>
         </div>
-        <div
-          v-if="item.minHeight && item.maxHeight !== ''"
-          class="flex space-x-20"
-        >
-          <p class="text-gray-700 text-base mt-2">
+        <div v-if="item.minHeight && item.maxHeight !== ''" class="flex">
+          <p class="text-gray-700 text-base mt-2 xs:mr-4">
             <strong>Altura mínima: </strong> {{ item.minHeight }}
           </p>
           <p class="text-gray-700 text-base mt-2">
             <strong>Altura máxima: </strong> {{ item.maxHeight }}
           </p>
         </div>
-        <div v-if="item.observation !== ''" class="flex mt-4">
+        <div v-if="item.observation !== ''" class="flex mt-4 space-x-1">
           <p><strong>Observação:</strong></p>
           <p>{{ item.observation }}</p>
         </div>
