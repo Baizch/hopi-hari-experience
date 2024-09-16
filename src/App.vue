@@ -2,7 +2,7 @@
 import Header from './components/header/Header.vue';
 import Footer from './components/footer/Footer.vue';
 
-import ProjectInfo from './sections/project-info/ProjectInfo.vue';
+import ProjectInfo from './sections/projectInfo/ProjectInfo.vue';
 import Attractions from './sections/attractions/Attractions.vue';
 </script>
 
