@@ -26,9 +26,14 @@ const props = defineProps({
     :closable="false"
     :destroyOnClose="true"
   >
-    <video class="h-full w-full rounded-lg mt-4" controls>
-      <source :src="props.selectedItem.video" type="video/mp4" />
-    </video>
+    <iframe
+      width="470"
+      height="315"
+      :src="`https://www.youtube.com/embed/${props.selectedItem.video}`"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;"
+      referrerpolicy="strict-origin-when-cross-origin"
+    ></iframe>
     <template #footer>
       <button
         @click="props.closeModal"
