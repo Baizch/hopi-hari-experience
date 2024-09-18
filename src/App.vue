@@ -12,5 +12,3 @@ import Attractions from './sections/attractions/Attractions.vue';
   <Attractions />
   <Footer />
 </template>
-
-<style scoped></style>
