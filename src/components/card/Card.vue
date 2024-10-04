@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { InfoCircleOutlined } from '@ant-design/icons-vue';
+
 const props = defineProps({
   list: {
     type: Array,
@@ -20,10 +22,13 @@ const props = defineProps({
     >
       <img class="w-full" :src="item.image" :alt="item.altImage" />
       <div class="px-6 py-4">
-        <div class="font-bold text-xl mb-2">{{ item.name }}</div>
-        <p class="text-gray-700 text-base">
-          {{ item.description }}
-        </p>
+        <a-space>
+          <div class="font-bold text-xl mb-2">{{ item.name }}</div>
+          <a-tooltip v-if="item.observation !== ''">
+            <template #title>{{ item.observation }}</template>
+            <InfoCircleOutlined class="mb-2" />
+          </a-tooltip>
+        </a-space>
         <p class="text-gray-700 text-base mt-2 space-x-2">
           <strong>Status:</strong>
           <span
@@ -58,10 +63,6 @@ const props = defineProps({
           <p class="text-gray-700 text-base mt-2">
             <strong>Altura máxima: </strong> {{ item.maxHeight }}
           </p>
-        </div>
-        <div v-if="item.observation !== ''" class="mt-4 grid">
-          <p><strong>Observação:</strong></p>
-          <p>{{ item.observation }}</p>
         </div>
         <button
           class="w-full mt-4 font-extrabold bg-white hover:bg-gray-100 text-gray-800 py-2 px-4 border border-gray-400 rounded shadow"
