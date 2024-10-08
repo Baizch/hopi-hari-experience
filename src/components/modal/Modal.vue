@@ -26,14 +26,19 @@ const props = defineProps({
     :closable="false"
     :destroyOnClose="true"
   >
-    <iframe
-      width="470"
-      height="315"
-      :src="`https://www.youtube.com/embed/${props.selectedItem.video}`"
-      frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;"
-      referrerpolicy="strict-origin-when-cross-origin"
-    ></iframe>
+    <div class="space-y-4">
+      <a-typography-paragraph>
+        {{ props.selectedItem.description }}
+      </a-typography-paragraph>
+      <iframe
+        width="470"
+        height="315"
+        :src="`https://www.youtube.com/embed/${props.selectedItem.video}`"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;"
+        referrerpolicy="strict-origin-when-cross-origin"
+      ></iframe>
+    </div>
     <template #footer>
       <button
         @click="props.closeModal"
