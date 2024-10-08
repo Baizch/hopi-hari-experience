@@ -65,7 +65,8 @@ const props = defineProps({
           </p>
         </div>
         <button
-          class="w-full mt-4 font-extrabold bg-white hover:bg-gray-100 text-gray-800 py-2 px-4 border border-gray-400 rounded shadow"
+          :disabled="item.video === ''"
+          class="w-full mt-4 font-extrabold bg-white hover:bg-gray-100 text-gray-800 py-2 px-4 border border-gray-400 rounded shadow disabled:bg-gray-200"
           @click="props.showModal(item)"
         >
           Ver vídeo
